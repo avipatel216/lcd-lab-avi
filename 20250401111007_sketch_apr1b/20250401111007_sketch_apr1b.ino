@@ -50,7 +50,7 @@ void reactionGame() {
  delay(random(3000, 6000));
 
   lcd.clear();                 
-  lcd.print("GO GO GO");  // Ask the player to press the button as fast as possible
+  lcd.print("PRESS NOW");  // Ask the player to press the button as fast as possible
 
   unsigned long startTime = millis();  // Record the time right button press
 
